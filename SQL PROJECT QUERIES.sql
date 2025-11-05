@@ -1,7 +1,4 @@
 
--- The project is used to give a recommendation of the top 3 cities with highest sales and highest number of customer consumption
-
-
 -- Q.1 Coffee Consumers Count
 -- How many people in each city are estimated to consume coffee, given that 25% of the population does?
 
@@ -239,16 +236,17 @@ ORDER BY cas.avg_sales DESC;
 /*
 RECOMMENDATIONS OF THE TOP 3 CITIES TO CONSIDER 
 
-1.Pune
-	a. Highest total revenue
-	b. Highest average sales with 52 customers
-	c. The average rent per customer in the city is low 
-2. Jaipur
-	a. The average rent per customer in the city is low, 156
-	b. Highest number of customers, 69 was recorded
-	c. Average sale per customer is at leat high, 11644k
-3.Delhi 
-	a. The average rent per customer in the city is low, 330
-	b. Highest number of customers, 68 was recorded
-	c. high estimated consumers is to be recorded with a population of 7.7m
+City 1.Pune
+	a. Highest total revenue.
+	b. Highest average sales with 52 customers.
+	c. The average rent per customer in the city is low. 
+City 2. Jaipur
+	a. The average rent per customer in the city is low, 156.
+	b. Highest number of customers, 69 was recorded.
+	c. Average sale per customer is at leat high, 11.644k.
+City 3.Delhi 
+	a. The average rent per customer in the city is low, 330.
+	b. Highest number of customers, 68 was recorded.
+	c. high estimated consumers is to be recorded with a population of 7.7 million.
+
 
