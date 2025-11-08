@@ -207,7 +207,7 @@ WITH CTE_AvgSales AS
 	INNER JOIN city_states cit
 		ON cc.city_id = cit.city_id
 	GROUP BY cit.city_name
-	ORDER BY total_revenue DES
+	ORDER BY total_revenue DESC
 ),
 CTE_AvgRent AS 
 (
@@ -248,5 +248,6 @@ City 3.Delhi
 	a. The average rent per customer in the city is low, 330.
 	b. Highest number of customers, 68 was recorded.
 	c. high estimated consumers is to be recorded with a population of 7.7 million.
+
 
 
